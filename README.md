@@ -1,15 +1,16 @@
 <img src="https://img.shields.io/badge/Android_Studio-v4.0.1-blue"> 
 
-# AKart Project  
+# A-Kart - <i>The Agnel Stores App</i> 
 
-Akart is an android application for student and admin for college store management. Students can add the items to purchase to cart. Admin can verify the student and purchases by scanning the unique QR code genenrated in the student app.<br><br>
+A-Kart is an android application that was developed for our college stationary stores.It consists of 2 apps namely 1.A student app and 2. An admin app for validation.
+Students can add the items to purchase to the cart. The administrator can verify the student purchases by scanning the unique QR code genenrated in the student app.<br><br>
 <i>myapp</i> is the Student application and <i>Akart_Admin</i> is the admin android application
 
 # Working
-New users has to sign-up for new account. The users will be added to the users collection in google firebase 
+New users have to sign-up for a new account. The users will be added to the users collection in google firebase 
 
 
-After the user saves the add to cart list, the item details are stored in a collection named Items
+After the user saves the cart list, the item details are stored in a collection named Items
 ```java
 final DocumentReference documentRef = fstore.collection("Items").document(userID);
   add.setOnClickListener(new View.OnClickListener() {
