@@ -2,7 +2,8 @@
 
 # A-Kart - <i>The Agnel Stores App</i> 
 
-A-Kart is an android application that was developed for our college stationary stores.It consists of 2 apps namely 1.A student app and 2. An admin app for validation.
+A-Kart is an Android application that was developed for our college stationary stores.
+It consists of 2 apps namely 1.A student app and 2. An admin app for validation.
 Students can add the items to purchase to the cart. The administrator can verify the student purchases by scanning the unique QR code genenrated in the student app.<br><br>
 <i>myapp</i> is the Student application and <i>Akart_Admin</i> is the admin android application
 
